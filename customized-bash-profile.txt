@@ -1,0 +1,19 @@
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias systemctl='systemctl --no-pager'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# Coustom bash profiles
+LANG=C
+date
+hostname
+ip address
